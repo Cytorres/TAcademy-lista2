@@ -1,2 +1,2 @@
-def recebe_numero(): return int(input('Entre com os valores: '))
+def recebe_numero()->int: return int(input('Entre com os valores: '))
      
