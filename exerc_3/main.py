@@ -1,12 +1,9 @@
-print('Digite até que número vc quer saber se tem numeros primos:')
-def recebe_valor():
-    valor = int(input('...'))
-    return valor
+from src.application.input import recebe_valor
+from src.application.numeros_primos import calcula_numeros_primos
+from src.application.output import mensagem,mostra_lista
 
-def calcula_numeros_primos(valor):
-    for numero in range(0,valor+1):
-        return print(numero)
-    
-
-y =recebe_valor()
-x =calcula_numeros_primos(recebe_valor)
+if __name__=='__main__':
+    mensagem_de_inicio = mensagem('Digite um número para saber quantos números primos tem até esse valor.') 
+    valor = recebe_valor()
+    lista_de_primos = calcula_numeros_primos(valor)
+    mostra_lista(lista_de_primos)
