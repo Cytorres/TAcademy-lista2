@@ -1,4 +1,7 @@
-def calcula_numeros_primos(valor):
+from typing import List
+
+
+def calcula_numeros_primos(valor:int)->List[int]:
     lista_primos = []
     for numero in range(2,valor+1):
         if numero > 1:
