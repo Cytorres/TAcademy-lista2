@@ -1,0 +1,4 @@
+8) Faça um programa que retorne se um numero está em uma lista. Use a pesquisa binária. 
+Exemplo: 
+print(pesquisa_binaria([0, 1, 3, 8, 14, 18, 19, 34, 52], 3)) => True
+print(pesquisa_binaria([0, 1, 3, 8, 14, 18, 19, 34, 52], 17)) => False
