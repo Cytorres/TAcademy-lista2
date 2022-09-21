@@ -10,7 +10,7 @@ def recebe_numero()->int:
         if (recebe_numero < 1 or recebe_numero > 100):
             print("ERRO... Digite um número inteiro entre 1 e 100.")
             continue
-        if (recebe_numero >= 1 or recebe_numero <=100):
+        if (recebe_numero >= 1 or recebe_numero <= 100):
             break
     
     return recebe_numero
