@@ -1,0 +1,5 @@
+7) Faça um programa que retorne se um numero está em uma lista. Use a pesquisa 
+sequencial. 
+Exemplo: 
+print(pesquisa_sequencial([0, 1, 52, 3, 34, 14, 8, 18, 19, 34], 3)) => True
+print(pesquisa_sequencial([0, 1, 52, 3, 34, 14, 8, 18, 19, 34], 17)) => False
