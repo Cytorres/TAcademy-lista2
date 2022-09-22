@@ -1,4 +1,4 @@
-def recebe_numero():
+def recebe_numero()->int:
     while True:
         try:
             numero = int(input('Digite um número de 0 a 100: '))

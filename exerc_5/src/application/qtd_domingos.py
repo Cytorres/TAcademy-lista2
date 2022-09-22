@@ -8,5 +8,5 @@ def calcula_qtd_dias(data_inicial:datetime,data_final:datetime)->int:
     return dias
 
 def calcula_quantidade_domingos(dias:int)->int:
-    domingos = round(dias / 7)
+    domingos = (dias // 7)
     return domingos
