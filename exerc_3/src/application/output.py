@@ -1,8 +1,2 @@
-from typing import List
-
-
-def mensagem(msg:str)->str:
-    return print(msg)
-    
-def mostra_lista(lista_primos:List[int])->List[int]:
-    return print(lista_primos)
+def pega_numero(mensagem: str, mensagem_erro: str, menor_valor: int, maior_valor: int)->int:
+    return 0
