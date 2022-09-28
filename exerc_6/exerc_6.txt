@@ -1,0 +1,3 @@
+6) Faça um programa que converta um json para uma classe. Estude a estrutura de um 
+arquivo json. Use esse json como exemplo json = '{ "Name":"David", "Class":"I", "Age":6 }'             
+
