@@ -1,0 +1,15 @@
+1) Faça um programa que leia um arquivo texto que representa uma estrutura de menu e 
+execute esse menu. Exemplo de arquivo:
+1;Insere Cliente
+2;Altera Cliente
+3;Exclui Cliente
+4;Deleta Cliente
+5;Mostra Cliente
+1o. campo, opção do menu, sempre inteiro
+2o campo, descrição da opção do menu, sempre string
+obs:
+⦁ A opção de fim do menu sempre será a última opção + 1, no exemplo acima 6.
+⦁ Dê mensagem de erro caso o usuário escolha uma opção inválida e imprima a opção 
+escolhida
+⦁ coloque as rotinas de leitura do arquivo e impressão do menu em modulos 
+separados
