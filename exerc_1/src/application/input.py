@@ -1,4 +1,4 @@
 def opcao_menu():
-    return input('\n_:')
+    return int(input('\n_:'))
 
     
