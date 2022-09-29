@@ -1,4 +1,7 @@
-def abrir_arquivo():
+from typing import List
+
+
+def abrir_arquivo()->List[str]:
     with open('src/application/menu.txt','r') as arquivo:
         menu = arquivo.readlines()
 
@@ -6,7 +9,7 @@ def abrir_arquivo():
 
 print(abrir_arquivo())
 
-def pegar_opcao_menu(menu,opcao:int):
+def pegar_opcao_menu(menu:List[str],opcao:int)->None:
     while True:
         if opcao == 1:
             print(menu[0])
@@ -24,10 +27,9 @@ def pegar_opcao_menu(menu,opcao:int):
             print(menu[4])
             break
         elif opcao == 6:
-            print('Sair do menu')
             break
         else:
-            print('Opção inválida')
+            print('Opção inválida, tente novamente')
             continue
     
     
