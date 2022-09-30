@@ -4,9 +4,9 @@ from src.application.output import mostra_mensagem
 
 if __name__ =='__main__':
     data_inicial, data_final = recebe_data()
-    dias = calcula_qtd_dias(data_inicial, data_final)
-    domingos = calcula_quantidade_domingos(dias)
-    mostra_mensagem(f"Dias entre as datas {dias}")
+    #dias = calcula_qtd_dias(data_inicial, data_final)
+    domingos = calcula_quantidade_domingos(data_inicial, data_final)
+    #mostra_mensagem(f"Dias entre as datas {dias}")
     mostra_mensagem(f"Entre a data {data_inicial} e {data_final}, terá {domingos} domingos.")
     
 
