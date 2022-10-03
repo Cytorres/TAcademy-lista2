@@ -1,3 +1,3 @@
-
-def mostra_mensagem(msg:str)->None:
+def mostra_mensagem(msg:str) ->None:
     print(msg)
+    

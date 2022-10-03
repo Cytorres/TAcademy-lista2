@@ -1,0 +1,10 @@
+[MASTER]
+disable=C0114,  # missing-module-docstring
+        C0115,  # missing class docstring (missing-class-docstring)
+        C0116,  # missing function or method docstring (missing-function-docstring)
+        R1716,  # Simplify chained comparison between the operands (chained-comparison)
+        E0401,  # Unable to import 
+        C0325,  # Unnecessary parens after 'if' keyword (superfluous-parens)
+
+[FORMAT]
+max-line-length=240

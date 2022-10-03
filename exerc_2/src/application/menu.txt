@@ -1,0 +1,5 @@
+1;Insere Cliente
+9;Altera Cliente
+7;Exclui Cliente
+3;Deleta Cliente
+5;Mostra Cliente

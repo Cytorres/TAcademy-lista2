@@ -1,6 +1,7 @@
 from typing import List
 
-def sai_do_loop()->str:return input('Aperte [P] para parar')
+def sai_do_loop()->str:
+    return input('Aperte [P] para parar')
 
 def separa_numeros_pares(lista_de_numeros:List[int])->List[int]:
     somente_pares = []

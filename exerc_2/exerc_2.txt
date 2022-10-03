@@ -1,0 +1,11 @@
+2) Faça uma evolução no programa acima sendo que a opção (1o campo) não seja um 
+numero sequencial. Exemplo de arquivo:
+1;Insere Cliente;insere_cliente 
+9;Mostra Cliente;mostra_cliente
+1o. campo, opção do menu, sempre inteiro
+2o campo, descrição da opção do menu, sempre string
+A opção de fim do menu sempre será sempre '0' e ficará como última.
+obs:
+⦁ Dê mensagem de erro caso o usuário escolha uma opção inválida
+⦁ coloque as rotinas de leitura do arquivo e impressão do menu em modulos 
+separados
